@@ -1,0 +1,53 @@
+
+<!DOCTYPE html>
+<html lang="en" data-color-mode="auto" data-light-theme="light" data-dark-theme="dark" data-a11y-animated-images="system">
+  <head>
+    <meta charset="utf-8">
+
+
+
+  <title>Initiating SAML single sign-on</title>
+  <meta http-equiv="refresh" content="0;url=https://rea.okta.com/app/reagroup_githubenterprise_1/exk18saw9434gnJTu1d8/sso/saml?RelayState=umt0o_pL8wqKYM-rwjExQptiJMz7X0jI-e2rHmxCtfHXpyGM8L2ADAgrdCcxeSpWYkKh9oLsMkcuo5vwCQpyCjhTfXOFwxkS38Jbje5nr4c&amp;SAMLRequest=fZJBb%2BIwEIXv%2FRWR7yR2CJBYQEWLVsuqW1BJe9gLcpIJWE3srMem7b9fk1Jtpapcx%2B9Z73sz0%2BvXtgmOYFBqNSMspOR6fjVF0TYdXzh7UA%2Fw1wHawOsU8v5hRpxRXAuUyJVoAbkt%2BXbx%2B47HIeWd0VaXuiGfLJcdAhGM9QFIsFrOyK6oywmdFEVcVKN4OMlEmtSZgHRcpGlSZXXMRikVUCcJHccjRgXLgFUwzCYCynpc%2BW8QHawUWqHsjMQ0Hg4oG9BRTmNOKY%2FZHxI8fUD7CCRYekaphO0nB2s75FFkQIT62Yqw1G0kuu402Bvtut1e2oMrQFkwnZEIOxbB6zNLUbxkyTDZq1%2B5Y1UaIeroVMAp0sZzyiPMSC0aBBJszkXdSFVJtb%2FcUfEuQv4zzzeDzXqbk2Dx0dutVuhaMFswR1nC48PdfwafNPSxG88nLJxIQuH6TFH5biPzft%2B8L83MLxqn0Wfp%2BU7ufdrVcqMbWb4Fi6bRL7feaD2pNc6D%2FtCmFfZ7PhayfiKrQd1LuVPYQSlrCRWJzvE8ZCVPtBjca3sDXgrf7dYL1mptFrXfzxfNqNf4b6OvZz6%2F%2Bgc%3D&amp;SigAlg=http%3A%2F%2Fwww.w3.org%2F2001%2F04%2Fxmldsig-more%23rsa-sha256&amp;Signature=05FXjZ55BEWGqihRW6eewdUu2obUC2ftBLWbCrRld7UbLzc3KASF1Bg6IxtV%2BfcwJROiHB2hzZxoUCZkWz6cQTwk8SR5nNeYThNFvq5EMJTIb6bJbfySXXR1lPuJ87pi3PuahWeSklTsjH821AVmxiinLeODW8erw%2Fv8eFSX3yeXeatBRIMNNjmB9t1I5P45P8yubrHDsF2ihvFZf%2Ft0LMcJzF279zWnWInT6fBa9k525ZFUhhAGUOa5oNQ9nkkl8ZWBZcGoa6HnHw8vAPUGeHAq8UC0YtLJFE6r3cyw1%2FCH%2BlMJ5zYrPAbgMOyMzu296wgwft%2FRvWVaBJTOcYDpcO1Cy%2FQnkHZyYblCNFtitx9a2bE%2BJqyVW1hTBf4aGKMnYXqgJa8UUYRdiULZdX1WWgAttMR1uvlBJ0FT1cXBtUZHQ3FhUwwnA6AKg2XO1uQiay8nSUb0rQQGQq%2FnXKGDp2lF6%2FKxqpPPpiQKL35el%2B6pSx4mU66rP9Vgc6XzUkBxMASlduwJ3HsbyI4gblkge9JJZIYHyi64koHsSip3s%2FyheBweQVN0A8QtPmMm5QMca1yQ2evgQMmWdH%2FABm%2FquZPQCYJS3vVcmLuIgZak%2Fh0eSCTOJUlDpd6iUolHKLz8p66CsjXQnFwMPbVriIHSF7VH0YtAQRNxNDTCD3FHVvc%3D" data-url="https://rea.okta.com/app/reagroup_githubenterprise_1/exk18saw9434gnJTu1d8/sso/saml?RelayState=umt0o_pL8wqKYM-rwjExQptiJMz7X0jI-e2rHmxCtfHXpyGM8L2ADAgrdCcxeSpWYkKh9oLsMkcuo5vwCQpyCjhTfXOFwxkS38Jbje5nr4c&amp;SAMLRequest=fZJBb%2BIwEIXv%2FRWR7yR2CJBYQEWLVsuqW1BJe9gLcpIJWE3srMem7b9fk1Jtpapcx%2B9Z73sz0%2BvXtgmOYFBqNSMspOR6fjVF0TYdXzh7UA%2Fw1wHawOsU8v5hRpxRXAuUyJVoAbkt%2BXbx%2B47HIeWd0VaXuiGfLJcdAhGM9QFIsFrOyK6oywmdFEVcVKN4OMlEmtSZgHRcpGlSZXXMRikVUCcJHccjRgXLgFUwzCYCynpc%2BW8QHawUWqHsjMQ0Hg4oG9BRTmNOKY%2FZHxI8fUD7CCRYekaphO0nB2s75FFkQIT62Yqw1G0kuu402Bvtut1e2oMrQFkwnZEIOxbB6zNLUbxkyTDZq1%2B5Y1UaIeroVMAp0sZzyiPMSC0aBBJszkXdSFVJtb%2FcUfEuQv4zzzeDzXqbk2Dx0dutVuhaMFswR1nC48PdfwafNPSxG88nLJxIQuH6TFH5biPzft%2B8L83MLxqn0Wfp%2BU7ufdrVcqMbWb4Fi6bRL7feaD2pNc6D%2FtCmFfZ7PhayfiKrQd1LuVPYQSlrCRWJzvE8ZCVPtBjca3sDXgrf7dYL1mptFrXfzxfNqNf4b6OvZz6%2F%2Bgc%3D&amp;SigAlg=http%3A%2F%2Fwww.w3.org%2F2001%2F04%2Fxmldsig-more%23rsa-sha256&amp;Signature=05FXjZ55BEWGqihRW6eewdUu2obUC2ftBLWbCrRld7UbLzc3KASF1Bg6IxtV%2BfcwJROiHB2hzZxoUCZkWz6cQTwk8SR5nNeYThNFvq5EMJTIb6bJbfySXXR1lPuJ87pi3PuahWeSklTsjH821AVmxiinLeODW8erw%2Fv8eFSX3yeXeatBRIMNNjmB9t1I5P45P8yubrHDsF2ihvFZf%2Ft0LMcJzF279zWnWInT6fBa9k525ZFUhhAGUOa5oNQ9nkkl8ZWBZcGoa6HnHw8vAPUGeHAq8UC0YtLJFE6r3cyw1%2FCH%2BlMJ5zYrPAbgMOyMzu296wgwft%2FRvWVaBJTOcYDpcO1Cy%2FQnkHZyYblCNFtitx9a2bE%2BJqyVW1hTBf4aGKMnYXqgJa8UUYRdiULZdX1WWgAttMR1uvlBJ0FT1cXBtUZHQ3FhUwwnA6AKg2XO1uQiay8nSUb0rQQGQq%2FnXKGDp2lF6%2FKxqpPPpiQKL35el%2B6pSx4mU66rP9Vgc6XzUkBxMASlduwJ3HsbyI4gblkge9JJZIYHyi64koHsSip3s%2FyheBweQVN0A8QtPmMm5QMca1yQ2evgQMmWdH%2FABm%2FquZPQCYJS3vVcmLuIgZak%2Fh0eSCTOJUlDpd6iUolHKLz8p66CsjXQnFwMPbVriIHSF7VH0YtAQRNxNDTCD3FHVvc%3D">
+  <meta name="viewport" content="width=device-width">
+  <link crossorigin="use-credentials" media="all" integrity="sha512-ksfTgQOOnE+FFXf+yNfVjKSlEckJAdufFIYGK7ZjRhWcZgzAGcmZqqArTgMLpu90FwthqcCX4ldDgKXbmVMeuQ==" rel="stylesheet" href="https://assets.git.realestate.com.au/assets/light-92c7d381038e.css" /><link crossorigin="use-credentials" media="all" integrity="sha512-1KkMNn8M/al/dtzBLupRwkIOgnA9MWkm8oxS+solP87jByEvY/g4BmoxLihRogKcX1obPnf4Yp7dI0ZTWO+ljg==" rel="stylesheet" href="https://assets.git.realestate.com.au/assets/dark-d4a90c367f0c.css" /><link data-color-theme="dark_dimmed" crossorigin="use-credentials" media="all" integrity="sha512-cZa7DZqvMBwD236uzEunO/G1dvw8/QftyT2UtLWKQFEy0z0eq0R5WPwqVME+3NSZG1YaLJAaIqtU+m0zWf/6SQ==" rel="stylesheet" data-href="https://assets.git.realestate.com.au/assets/dark_dimmed-7196bb0d9aaf.css" /><link data-color-theme="dark_high_contrast" crossorigin="use-credentials" media="all" integrity="sha512-WVoKqJ4y1nLsdNH4RkRT5qrM9+n9RFe1RHSiTnQkBf5TSZkJEc9GpLpTIS7T15EQaUQBJ8BwmKvwFPVqfpTEIQ==" rel="stylesheet" data-href="https://assets.git.realestate.com.au/assets/dark_high_contrast-595a0aa89e32.css" /><link data-color-theme="dark_colorblind" crossorigin="use-credentials" media="all" integrity="sha512-XpAMBMSRZ6RTXgepS8LjKiOeNK3BilRbv8qEiA/M3m+Q4GoqxtHedOI5BAZRikCzfBL4KWYvVzYZSZ8Gp/UnUg==" rel="stylesheet" data-href="https://assets.git.realestate.com.au/assets/dark_colorblind-5e900c04c491.css" /><link data-color-theme="light_colorblind" crossorigin="use-credentials" media="all" integrity="sha512-3HF2HZ4LgEIQm77yOzoeR20CX1n2cUQlcywscqF4s+5iplolajiHV7E5ranBwkX65jN9TNciHEVSYebQ+8xxEw==" rel="stylesheet" data-href="https://assets.git.realestate.com.au/assets/light_colorblind-dc71761d9e0b.css" /><link data-color-theme="light_high_contrast" crossorigin="use-credentials" media="all" integrity="sha512-+J8j3T0kbK9/sL3zbkCfPtgYcRD4qQfRbT6xnfOrOTjvz4zhr0M7AXPuE642PpaxGhHs1t77cTtieW9hI2K6Gw==" rel="stylesheet" data-href="https://assets.git.realestate.com.au/assets/light_high_contrast-f89f23dd3d24.css" /><link data-color-theme="light_tritanopia" crossorigin="use-credentials" media="all" integrity="sha512-AQeAx5wHQAXNf0DmkvVlHYwA3f6BkxunWTI0GGaRN57GqD+H9tW8RKIKlopLS0qGaC54seFsPc601GDlqIuuHg==" rel="stylesheet" data-href="https://assets.git.realestate.com.au/assets/light_tritanopia-010780c79c07.css" /><link data-color-theme="dark_tritanopia" crossorigin="use-credentials" media="all" integrity="sha512-+u5pmgAE0T03d/yI6Ha0NWwz6Pk0W6S6WEfIt8veDVdK8NTjcMbZmQB9XUCkDlrBoAKkABva8HuGJ+SzEpV1Uw==" rel="stylesheet" data-href="https://assets.git.realestate.com.au/assets/dark_tritanopia-faee699a0004.css" />
+  <link crossorigin="use-credentials" media="all" integrity="sha512-EAhBCLIJ/pXHG3Y6yQhs9s53SHV80sjJ+yCwlQtfv7LaVkD+VoEuZBZ5betQJFUNj/5qBSfZk5GFtazEDzWLAg==" rel="stylesheet" href="https://assets.git.realestate.com.au/assets/primer-10084108b209.css" />
+  <link crossorigin="use-credentials" media="all" integrity="sha512-tkWgNWiFjuy2yesVsqFdKnFZ6NXa7DPevHiT+xLdG2eKhKwpkK0KpWnp0sZwgUxFWd0EXhjw1Q3jY64JTEZXYA==" rel="stylesheet" href="https://assets.git.realestate.com.au/assets/global-b645a0356885.css" />
+
+
+
+  <link rel="mask-icon" href="https://assets.git.realestate.com.au/pinned-octocat.svg" color="#000000">
+  <link rel="alternate icon" class="js-site-favicon" type="image/png" href="https://assets.git.realestate.com.au/favicons/favicon-ent.png">
+  <link rel="icon" class="js-site-favicon" type="image/svg+xml" href="https://assets.git.realestate.com.au/favicons/favicon-ent.svg">
+
+<meta name="theme-color" content="#1e2327">
+<meta name="color-scheme" content="light dark" />
+
+
+  <link rel="manifest" href="/manifest.json" crossOrigin="use-credentials">
+
+  </head>
+
+  <body style="word-wrap: break-word;">
+    
+  
+<div class="container-md px-3">
+  <div data-view-component="true" class="blankslate mt-5">
+    <svg aria-hidden="true" height="24" viewBox="0 0 24 24" version="1.1" width="24" data-view-component="true" class="octicon octicon-shield-lock blankslate-icon">
+    <path fill-rule="evenodd" d="M12.077 2.563a.25.25 0 00-.154 0L3.673 5.24a.249.249 0 00-.173.237V10.5c0 5.461 3.28 9.483 8.43 11.426a.2.2 0 00.14 0c5.15-1.943 8.43-5.965 8.43-11.426V5.476a.25.25 0 00-.173-.237l-8.25-2.676zm-.617-1.426a1.75 1.75 0 011.08 0l8.25 2.675A1.75 1.75 0 0122 5.476V10.5c0 6.19-3.77 10.705-9.401 12.83a1.699 1.699 0 01-1.198 0C5.771 21.204 2 16.69 2 10.5V5.476c0-.76.49-1.43 1.21-1.664l8.25-2.675zM13 12.232A2 2 0 0012 8.5a2 2 0 00-1 3.732V15a1 1 0 102 0v-2.768z"></path>
+</svg>
+
+    <h3 data-view-component="true" class="mb-1">You are being redirected to your identity provider in order to authenticate.</h3>
+
+
+  
+    <p>
+      If your browser does not redirect you back, please <a id="redirect" href="https://rea.okta.com/app/reagroup_githubenterprise_1/exk18saw9434gnJTu1d8/sso/saml?RelayState=umt0o_pL8wqKYM-rwjExQptiJMz7X0jI-e2rHmxCtfHXpyGM8L2ADAgrdCcxeSpWYkKh9oLsMkcuo5vwCQpyCjhTfXOFwxkS38Jbje5nr4c&amp;SAMLRequest=fZJBb%2BIwEIXv%2FRWR7yR2CJBYQEWLVsuqW1BJe9gLcpIJWE3srMem7b9fk1Jtpapcx%2B9Z73sz0%2BvXtgmOYFBqNSMspOR6fjVF0TYdXzh7UA%2Fw1wHawOsU8v5hRpxRXAuUyJVoAbkt%2BXbx%2B47HIeWd0VaXuiGfLJcdAhGM9QFIsFrOyK6oywmdFEVcVKN4OMlEmtSZgHRcpGlSZXXMRikVUCcJHccjRgXLgFUwzCYCynpc%2BW8QHawUWqHsjMQ0Hg4oG9BRTmNOKY%2FZHxI8fUD7CCRYekaphO0nB2s75FFkQIT62Yqw1G0kuu402Bvtut1e2oMrQFkwnZEIOxbB6zNLUbxkyTDZq1%2B5Y1UaIeroVMAp0sZzyiPMSC0aBBJszkXdSFVJtb%2FcUfEuQv4zzzeDzXqbk2Dx0dutVuhaMFswR1nC48PdfwafNPSxG88nLJxIQuH6TFH5biPzft%2B8L83MLxqn0Wfp%2BU7ufdrVcqMbWb4Fi6bRL7feaD2pNc6D%2FtCmFfZ7PhayfiKrQd1LuVPYQSlrCRWJzvE8ZCVPtBjca3sDXgrf7dYL1mptFrXfzxfNqNf4b6OvZz6%2F%2Bgc%3D&amp;SigAlg=http%3A%2F%2Fwww.w3.org%2F2001%2F04%2Fxmldsig-more%23rsa-sha256&amp;Signature=05FXjZ55BEWGqihRW6eewdUu2obUC2ftBLWbCrRld7UbLzc3KASF1Bg6IxtV%2BfcwJROiHB2hzZxoUCZkWz6cQTwk8SR5nNeYThNFvq5EMJTIb6bJbfySXXR1lPuJ87pi3PuahWeSklTsjH821AVmxiinLeODW8erw%2Fv8eFSX3yeXeatBRIMNNjmB9t1I5P45P8yubrHDsF2ihvFZf%2Ft0LMcJzF279zWnWInT6fBa9k525ZFUhhAGUOa5oNQ9nkkl8ZWBZcGoa6HnHw8vAPUGeHAq8UC0YtLJFE6r3cyw1%2FCH%2BlMJ5zYrPAbgMOyMzu296wgwft%2FRvWVaBJTOcYDpcO1Cy%2FQnkHZyYblCNFtitx9a2bE%2BJqyVW1hTBf4aGKMnYXqgJa8UUYRdiULZdX1WWgAttMR1uvlBJ0FT1cXBtUZHQ3FhUwwnA6AKg2XO1uQiay8nSUb0rQQGQq%2FnXKGDp2lF6%2FKxqpPPpiQKL35el%2B6pSx4mU66rP9Vgc6XzUkBxMASlduwJ3HsbyI4gblkge9JJZIYHyi64koHsSip3s%2FyheBweQVN0A8QtPmMm5QMca1yQ2evgQMmWdH%2FABm%2FquZPQCYJS3vVcmLuIgZak%2Fh0eSCTOJUlDpd6iUolHKLz8p66CsjXQnFwMPbVriIHSF7VH0YtAQRNxNDTCD3FHVvc%3D">click here</a> to continue.
+    </p>
+
+
+
+</div></div>
+
+
+  </body>
+</html>
